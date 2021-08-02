@@ -1,0 +1,87 @@
+.home-main {
+  margin: 50px;
+  font-family: 'Lato';
+  .home-header {
+    font-size: 40px;
+    color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dashboard-text {
+      color: blue;
+      margin-left: 10px;
+    }
+  }
+  .content {
+    margin-top: 38px;
+    border: 1px solid #808080;
+    border-radius: 24px;
+  }
+  .top-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .left-section {
+      width: 259px;
+      padding: 20px 24px;
+
+      .last-scan {
+        border: 1px solid #6fdaff;
+        box-sizing: border-box;
+        border-radius: 12px;
+        font-size: 24px;
+        line-height: 28px;
+        color: #0099e9;
+        text-align: left;
+        padding: 5px 10px;
+      }
+      .scan-details {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin-top: 10px;
+        color: #808080;
+        font-family: 'Lato';
+        .left-scan {
+          .integration-text {
+            font-size: 12px;
+          }
+          .sbc-text {
+            font-size: 24px;
+            color: #666666;
+          }
+        }
+      }
+    }
+    .right-section {
+      padding: 20px 24px;
+      .risk-text {
+        display: flex;
+        align-items: center;
+        color: #808080;
+        font-size: 40px;
+        justify-content: center;
+        .risk-low {
+          color: blue;
+          padding-left: 5px;
+        }
+      }
+      .summary-btn {
+        background: linear-gradient(144.07deg, #6fdaff 12.4%, #7369fd 88.67%);
+        border-radius: 12px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 32px;
+        text-align: center;
+        width: 320px;
+        height: 60px;
+        border: 1px solid #6fdaff;
+        margin-top: 24px;
+        cursor: pointer;
+      }
+      .summary-btn:focus {
+        outline: none;
+      }
+    }
+  }
+}
