@@ -1,0 +1,62 @@
+{
+  "allScansColumn": [
+    {
+      "label": "Application",
+      "value": "application"
+    },
+    {
+      "label": "Scan ID",
+      "value": "scanId"
+    },
+    {
+      "label": "When",
+      "value": "when"
+    },
+    {
+      "label": "Risk Score",
+      "value": "riskScore"
+    }
+  ],
+
+  "allScanData": [
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B7",
+      "when": "25/05/2021 15:00",
+      "riskScore": "23%"
+    },
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B8",
+      "when": "25/05/2021 15:01",
+      "riskScore": "29%"
+    },
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B9",
+      "when": "25/05/2021 15:02",
+      "riskScore": "30%"
+    }
+  ],
+
+  "purchasedScanData": [
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B7",
+      "when": "25/05/2021 15:00",
+      "riskScore": "23%"
+    },
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B8",
+      "when": "25/05/2021 15:01",
+      "riskScore": "29%"
+    },
+    {
+      "application": "AvayaSBC",
+      "scanId": "F332B9",
+      "when": "25/05/2021 15:02",
+      "riskScore": "30%"
+    }
+  ]
+}

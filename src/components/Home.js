@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import riskImg from '../assets/risk_img.svg';
 import MessageComponent from '../common-components/MessageComponent';
+import TabComponent from './TabComponent';
 
 export default function Home() {
   const [popupOpen, setPopupOpen] = useState(false);
@@ -66,6 +67,9 @@ export default function Home() {
           popupMsg={'You clicked on summary report'}
         />
       )}
+      <div className="tab-content">
+        <TabComponent />
+      </div>
     </div>
   );
 }
